@@ -10,3 +10,15 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+eclipse/config/forge.cfg
+eclipse/.metadata/.plugins/org.eclipse.debug.ui/launchConfigurationHistory.xml
+eclipse/.metadata/.plugins/org.eclipse.debug.core/.launches/Server.launch
+eclipse/
+.gradle/
+gradle/wrapper/gradle-wrapper.properties
+gradlew
+gradlew.bat
+myJavaMod.iml
+myJavaMod.ipr
+myJavaMod.iws
+out/production/myJavaMod/mcmod.info
