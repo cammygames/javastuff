@@ -5,11 +5,11 @@ import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
-import uk.org.cyberbyte.blastcraft.config.ConfigurationHandler;
+import uk.org.cyberbyte.blastcraft.handler.ConfigurationHandler;
 import uk.org.cyberbyte.blastcraft.proxy.IProxy;
 import uk.org.cyberbyte.blastcraft.reference.Reference;
 
-@Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.VERSION)
+@Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.VERSION, guiFactory = Reference.GUI_FACTORY)
 public class BlastCraft {
 
     @Mod.Instance(Reference.MOD_ID)
