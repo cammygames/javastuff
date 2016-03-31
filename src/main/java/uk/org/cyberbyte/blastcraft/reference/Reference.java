@@ -8,4 +8,5 @@ public class Reference {
     public static final String CLIENT_PROXY = "uk.org.cyberbyte.blastcraft.proxy.ClientProxy";
     public static final String SERVER_PROXY = "uk.org.cyberbyte.blastcraft.proxy.ServerProxy";
     public static final String GUI_FACTORY = "uk.org.cyberbyte.blastcraft.client.gui.GuiFactory";
+
 }
